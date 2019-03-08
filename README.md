@@ -1,2 +1,2 @@
 # flutter-studies
-Flutter studies
+lutter studies
