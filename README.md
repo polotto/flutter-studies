@@ -1,9 +1,8 @@
 # flutter-studies
 flutter studies
 
-
-# Revisão de Dart
-## Conceitos básicos
+## Revisão de Dart
+### Conceitos básicos
 ```Dart
 void main() {
   // declaração de variáveis
@@ -81,7 +80,84 @@ void main() {
   funcOpt(y: 15, x: 10);
 }
 ```
-## Orientação a objetos
-```Dart
 
+### Orientação a objetos
+```Dart
+// criação de uma classe
+class Animal {
+  // variável estática
+  static int quantidade;
+  
+  // propriedades da classe
+  String nome;
+  int idade;
+  
+  // construtor completo
+  /*
+  Animal(String nome, int idade) {
+    this.nome = nome;
+    this.idade = idade;
+  }
+  */
+  
+  // construtor resumido
+  Animal(this.nome, this.idade);
+  
+  // criação de um método
+  void comer() {
+    print("$nome comeu!");
+  }
+}
+
+// herança de classes
+class Cachorro extends Animal {
+  // construtor resumido da classe
+  Cachorro(String nome, int idade): super(nome, idade);
+  
+  // override
+  @override
+  void comer() {
+    print("func overrided!");
+  }
+}
+
+void main() {
+  // criação de uma instância do objeto
+  Animal animal1 = Animal("Rex", 2);
+  
+  // chamada da propriedade
+  print(animal1.nome);
+  
+  // chamada do método
+  animal1.comer();
+  
+  // alterando valor da propriedade
+  Animal.quantidade = 10;
+  
+  // constante em tempo de compilação
+  const max = 20;
+  
+  // constante em tempo de execução
+  final animal = Animal("Toto", 3);
+  
+  // listas
+  List<String> nomes = ["Daniel", "Thiago"];
+  print(nomes[0]);
+  nomes.removeAt(0);
+  nomes.add("Mari");
+  
+  // hash tables (mapas)
+  Map<String, dynamic> pessoa = Map();
+  pessoa["nome"] = "Marcos";
+  pessoa["idade"] = 30;
+  print(pessoa.keys);
+  print(pessoa.values);
+}
 ```
+
+## Flutter
+### Widgets
+São componentes que podem ser adicionados no layout, são organizados em hierarquias para formar a tela.
+Consulta aos widgets: https://flutter.dev/docs/development/ui/widgets
+
+### 
