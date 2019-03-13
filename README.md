@@ -160,4 +160,15 @@ void main() {
 São componentes que podem ser adicionados no layout, são organizados em hierarquias para formar a tela.
 Consulta aos widgets: https://flutter.dev/docs/development/ui/widgets
 
-### 
+### Material design
+Site: material.io
+
+### Stateless
+Mantém o mesmo estado ao longo da aplicação, caso o pai seja stateless, não funciona o hot reload nos filhos.
+
+### Statefull
+Altera o estado ao longo da uso da aplicação, o hot reload funciona nesses casos.
+
+#### setState(() {} ) - função necessária para poder se conseguir alterar o estado de um Widget na tela, qualquer coisa que altere o estado de um Widget deve estar dentro dela, se não, não será alterado. O flutter atualiza somente redenriza os componentes alterados.
+
+
