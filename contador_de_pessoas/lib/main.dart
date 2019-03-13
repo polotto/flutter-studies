@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(
-      title: "Contador de pessoas",
-      home: Home()));
+  runApp(MaterialApp(title: "Contador de pessoas", home: Home()));
 }
 
 class Home extends StatefulWidget {
@@ -44,7 +42,7 @@ class _HomeState extends State<Home> {
             Text(
               "Pessoas: $_people",
               style:
-              TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                  TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -58,8 +56,8 @@ class _HomeState extends State<Home> {
                     ),
                     onPressed: () {
                       _changePeople(1);
-                        debugPrint("+1");
-                      },
+                      debugPrint("+1");
+                    },
                   ),
                 ),
                 Padding(
