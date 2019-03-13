@@ -171,4 +171,5 @@ Altera o estado ao longo da uso da aplicação, o hot reload funciona nesses cas
 
 #### setState(() {} ) - função necessária para poder se conseguir alterar o estado de um Widget na tela, qualquer coisa que altere o estado de um Widget deve estar dentro dela, se não, não será alterado. O flutter atualiza somente redenriza os componentes alterados.
 
-
+## JsonEditor: https://jsoneditoronline.org/
+## HG Finance API valor das moedas: https://hgbrasil.com/status/finance/
