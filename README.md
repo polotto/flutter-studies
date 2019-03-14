@@ -156,6 +156,8 @@ void main() {
 ```
 
 ## Flutter
+### Packages Dart Pub: https://pub.dartlang.org/flutter
+
 ### Widgets
 São componentes que podem ser adicionados no layout, são organizados em hierarquias para formar a tela.
 Consulta aos widgets: https://flutter.dev/docs/development/ui/widgets
