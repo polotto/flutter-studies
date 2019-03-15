@@ -32,8 +32,8 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black,
-        title: Image.network(
-            "https://developers.giphy.com/static/img/dev-logo-lg.7404c00322a8.gif"),
+        title: Image.network("https://developers.giphy.com/static/img/dev-logo-lg.7404c00322a8.gif"),
+//        title: Image.asset("images/analu.gif"),
         centerTitle: true,
       ),
       backgroundColor: Colors.black,
@@ -107,7 +107,7 @@ class _HomePageState extends State<HomePage> {
           return GestureDetector(
             child: FadeInImage.memoryNetwork(
                 placeholder: kTransparentImage,
-                image: snapshot.data["data"][index]["images"]["fixed_height"]["url"],
+                image: snapshot.data["data"][index]["images"]["fixed_height_small"]["url"],
                 height: 300.0,
                 fit: BoxFit.cover,
             ),
@@ -117,7 +117,7 @@ class _HomePageState extends State<HomePage> {
               );
             },
             onLongPress: () {
-              Share.share(snapshot.data["data"][index]["images"]["fixed_height"]["url"]);
+              Share.share(snapshot.data["data"][index]["images"]["fixed_height_small"]["url"]);
             },
           );
         else
