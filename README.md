@@ -175,3 +175,4 @@ Altera o estado ao longo da uso da aplicação, o hot reload funciona nesses cas
 
 ## JsonEditor: https://jsoneditoronline.org/
 ## HG Finance API valor das moedas: https://hgbrasil.com/status/finance/
+## Banco de imagens gratuito: https://www.pexels.com
