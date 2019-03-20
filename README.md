@@ -173,6 +173,48 @@ Altera o estado ao longo da uso da aplicação, o hot reload funciona nesses cas
 
 #### setState(() {} ) - função necessária para poder se conseguir alterar o estado de um Widget na tela, qualquer coisa que altere o estado de um Widget deve estar dentro dela, se não, não será alterado. O flutter atualiza somente redenriza os componentes alterados.
 
+### Projetos e conceitos:
+* primeiro_projeto: como criar um projeto em flutter;
+
+* contador_de_pessoas: MaterialApp, StatefulWidget, setState, adição de imagem do resources (asset), Image.asset, Text, TextStyle, FlatButton, Padding, Stack, Column, debugPrint, Container, EdgeInsets, Colors;
+
+* calculo_imc: TextEditingController, double.parse, .toStringAsPrecision(3), Scaffold, AppBar, IconButton, Icons, SingleChildScrollView, GlobalKey<FormState>, Form, TextFormField, TextInputType, RaisedButton, Column;
+
+* conversor_de_moedas: async, FutureBuilder, Icon, Divider, Future<Map>, http, json, TextField, InputDecoration, OutlineInputBorder;
+
+* lista_tarefas: initState, getApplicationDocumentsDirectory, File, Future.delayed, Row, ListView, Expanded, Dismissible, DateTime, Align, CheckboxListTile, SnackBar, SnackBarAction, Duration;
+
+* buscador_gifs: debugShowCheckedModeBanner, separação das telas por arquivos, Image.network, CircularProgressIndicator, AlwaysStoppedAnimation, Alignment, AsyncSnapshot, GridView, SliverGridDelegateWithFixedCrossAxisCount, GestureDetector, FadeInImage, kTransparentImage, BoxFit, Navigator, MaterialPageRoute, Share;
+
+* agenda_contatos: enum, PopupMenuButton, PopupMenuEntry, PopupMenuItem, FloatingActionButton, Card, BoxDecoration, BoxShape, DecorationImage, FileImage, AssetImage, showModalBottomSheet, BottomSheet, FlatButton, Navigator, sort, FocusNode, WillPopScope, FocusScope, ImagePicker, ImageSource, FileImage, AssetImage, showDialog, AlertDialog, FlatButton, Future.value, singleton, Database, fromMap, toMap;
+
+* chat_online: ThemeData, GoogleSignIn, FirebaseAuth, GoogleSignInAccount, GoogleSignInAuthentication, Firestore, Theme.of(context).platform, SafeArea, StreamBuilder, CircularProgressIndicator, Divider, IconTheme, IconThemeData, IconButton, StorageUploadTask, FirebaseStorage, CupertinoButton, IconButton, CircleAvatar;
+
+* loja_virtual: 
+
+### Packages:
+* http : requisições http para API Restful;
+* path_provider : retorna o endereço do arquivo no dispositivo;
+* share : compartilha conteúdo do app, mostra dialog do sistema para compartilhar;
+* transparent_image : imagem transaparent para o FadeInImage;
+* sqflite : banco de dados SQLite;
+* url_launcher : abre aplicativos padrão do sistema: navegador, discador, etc;
+* image_picker : Obtém uma imagem da camera ou da galeria;
+
+* cloud_firestore : acesso ao db firestore;
+* google_sign_in : login com o google;
+* firebase_storage : acesso ao storage (blog de imagens);
+* firebase_auth : autenticação com o firebase;
+* firebase_analytics : analytics do firebase;
+* firebase_messaging : push notifications do firebase;
+
+* font_awesome : icones do font awesome;
+* flutter_staggered_grid_view : grid view staggered para flutter;
+* carousel_pro : carrossel;
+* scoped_model : 
+
+
 ## JsonEditor: https://jsoneditoronline.org/
 ## HG Finance API valor das moedas: https://hgbrasil.com/status/finance/
 ## Banco de imagens gratuito: https://www.pexels.com
+## Icones: https://icons8.com
