@@ -1,8 +1,11 @@
 # flutter-studies
+
 flutter studies
 
 ## Revisão de Dart
+
 ### Conceitos básicos
+
 ```Dart
 void main() {
   // declaração de variáveis
@@ -82,6 +85,7 @@ void main() {
 ```
 
 ### Orientação a objetos
+
 ```Dart
 // criação de uma classe
 class Animal {
@@ -156,29 +160,35 @@ void main() {
 ```
 
 ## Flutter
+
 ### Packages Dart Pub: https://pub.dartlang.org/flutter
 
 ### Widgets
+
 São componentes que podem ser adicionados no layout, são organizados em hierarquias para formar a tela.
 Consulta aos widgets: https://flutter.dev/docs/development/ui/widgets
 
 ### Material design
+
 Site: material.io
 
 ### Stateless
+
 Mantém o mesmo estado ao longo da aplicação, caso o pai seja stateless, não funciona o hot reload nos filhos.
 
 ### Statefull
+
 Altera o estado ao longo da uso da aplicação, o hot reload funciona nesses casos.
 
 #### setState(() {} ) - função necessária para poder se conseguir alterar o estado de um Widget na tela, qualquer coisa que altere o estado de um Widget deve estar dentro dela, se não, não será alterado. O flutter atualiza somente redenriza os componentes alterados.
 
-### Projetos e conceitos:
+### Projetos e conceitos
+
 * primeiro_projeto: como criar um projeto em flutter;
 
 * contador_de_pessoas: MaterialApp, StatefulWidget, setState, adição de imagem do resources (asset), Image.asset, Text, TextStyle, FlatButton, Padding, Stack, Column, debugPrint, Container, EdgeInsets, Colors;
 
-* calculo_imc: TextEditingController, double.parse, .toStringAsPrecision(3), Scaffold, AppBar, IconButton, Icons, SingleChildScrollView, GlobalKey<FormState>, Form, TextFormField, TextInputType, RaisedButton, Column;
+* calculo_imc: TextEditingController, double.parse, .toStringAsPrecision(3), Scaffold, AppBar, IconButton, Icons, SingleChildScrollView, GlobalKey\<FormState>, Form, TextFormField, TextInputType, RaisedButton, Column;
 
 * conversor_de_moedas: async, FutureBuilder, Icon, Divider, Future<Map>, http, json, TextField, InputDecoration, OutlineInputBorder;
 
@@ -192,7 +202,8 @@ Altera o estado ao longo da uso da aplicação, o hot reload funciona nesses cas
 
 * loja_virtual: 
 
-### Packages:
+### Packages
+
 * http : requisições http para API Restful;
 * path_provider : retorna o endereço do arquivo no dispositivo;
 * share : compartilha conteúdo do app, mostra dialog do sistema para compartilhar;
@@ -213,8 +224,13 @@ Altera o estado ao longo da uso da aplicação, o hot reload funciona nesses cas
 * carousel_pro : carrossel;
 * scoped_model : 
 
+## JsonEditor: <https://jsoneditoronline.org/>
 
-## JsonEditor: https://jsoneditoronline.org/
-## HG Finance API valor das moedas: https://hgbrasil.com/status/finance/
-## Banco de imagens gratuito: https://www.pexels.com
-## Icones: https://icons8.com
+## HG Finance API valor das moedas: <https://hgbrasil.com/status/finance/>
+
+## Banco de imagens gratuitos
+
+* <https://www.pexels.com>
+* <https://unsplash.com/>
+
+## Icones: <https://icons8.com>
