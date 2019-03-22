@@ -6,6 +6,7 @@ import 'dart:convert';
 
 void main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: Home(),
   ));
 }

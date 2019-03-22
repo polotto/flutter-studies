@@ -186,7 +186,7 @@ Altera o estado ao longo da uso da aplicação, o hot reload funciona nesses cas
 
 * primeiro_projeto: como criar um projeto em flutter;
 
-* contador_de_pessoas: MaterialApp, StatefulWidget, setState, adição de imagem do resources (asset), Image.asset, Text, TextStyle, FlatButton, Padding, Stack, Column, debugPrint, Container, EdgeInsets, Colors;
+* contador_de_pessoas ([Screenshots](./screenshots/contador_de_pessoas/)): MaterialApp, StatefulWidget, setState, adição de imagem do resources (asset), Image.asset, Text, TextStyle, FlatButton, Padding, Stack, Column, debugPrint, Container, EdgeInsets, Colors;
 
 * calculo_imc: TextEditingController, double.parse, .toStringAsPrecision(3), Scaffold, AppBar, IconButton, Icons, SingleChildScrollView, GlobalKey\<FormState>, Form, TextFormField, TextInputType, RaisedButton, Column;
 
@@ -222,7 +222,7 @@ Altera o estado ao longo da uso da aplicação, o hot reload funciona nesses cas
 * font_awesome : icones do font awesome;
 * flutter_staggered_grid_view : grid view staggered para flutter;
 * carousel_pro : carrossel;
-* scoped_model : 
+* scoped_model : conjunto de utilitários para passar dados de um Model para um Widget pai e seus filhos, permitindo ainda sua reconstrução caso o Model seja atualizado;
 
 ## JsonEditor: <https://jsoneditoronline.org/>
 
