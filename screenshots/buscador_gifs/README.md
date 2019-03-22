@@ -1,4 +1,4 @@
 # Screenshots: Buscador de gifs
 
-![screenshot](11.jpg)
-![screenshot](21.jpg)
+<img src="11.jpg" alt="screenshot" height="500">
+<img src="21.jpg" alt="screenshot" height="500">
