@@ -80,7 +80,9 @@ class CartScreen extends StatelessWidget {
           return ListView(
             children: <Widget>[
               Column(
-                
+                children: model.products.map((product) {
+                  return CartTile()
+                }).toList(),
               )
             ],
           );

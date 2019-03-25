@@ -9,9 +9,9 @@
 <img src="./android/32.jpg" alt="screenshot" height="500">
 
 ## iOS
-<img src="./ios/11.png" alt="screenshot" height="500">
-<img src="./ios/12.png" alt="screenshot" height="500">
-<img src="./ios/13.png" alt="screenshot" height="500">
-<img src="./ios/21.png" alt="screenshot" height="500">
-<img src="./ios/31.png" alt="screenshot" height="500">
-<img src="./ios/32.png" alt="screenshot" height="500">
+<img src="./ios/11.PNG" alt="screenshot" height="500">
+<img src="./ios/12.PNG" alt="screenshot" height="500">
+<img src="./ios/13.PNG" alt="screenshot" height="500">
+<img src="./ios/21.PNG" alt="screenshot" height="500">
+<img src="./ios/31.PNG" alt="screenshot" height="500">
+<img src="./ios/32.PNG" alt="screenshot" height="500">
