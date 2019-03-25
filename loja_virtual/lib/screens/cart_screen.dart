@@ -80,10 +80,10 @@ class CartScreen extends StatelessWidget {
           return ListView(
             children: <Widget>[
               Column(
-
+                
               )
             ],
-          )
+          );
         }
       }),
     );
