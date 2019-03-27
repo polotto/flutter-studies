@@ -202,7 +202,9 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 
 * chat_online ([Screenshots](./screenshots/chat_online/)): ThemeData, GoogleSignIn, FirebaseAuth, GoogleSignInAccount, GoogleSignInAuthentication, Firestore, Theme.of(context).platform, SafeArea, StreamBuilder, CircularProgressIndicator, Divider, IconTheme, IconThemeData, IconButton, StorageUploadTask, FirebaseStorage, CupertinoButton, IconButton, CircleAvatar;
 
-* loja_virtual ([Screenshots](./screenshots/loja_virtual/)): 
+* loja_virtual ([Screenshots](./screenshots/loja_virtual/)):
+
+* flare_test ([Screenshots](./screenshots/flare_test/)):
 
 ### Packages
 
