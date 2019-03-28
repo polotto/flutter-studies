@@ -202,9 +202,9 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 
 * chat_online ([Screenshots](./screenshots/chat_online/)): ThemeData, GoogleSignIn, FirebaseAuth, GoogleSignInAccount, GoogleSignInAuthentication, Firestore, Theme.of(context).platform, SafeArea, StreamBuilder, CircularProgressIndicator, Divider, IconTheme, IconThemeData, IconButton, StorageUploadTask, FirebaseStorage, CupertinoButton, IconButton, CircleAvatar;
 
-* loja_virtual ([Screenshots](./screenshots/loja_virtual/)):
+* loja_virtual ([Screenshots](./screenshots/loja_virtual/)): Model, notifyListeners, ScopedModel, ScopedModelDescendant, Color.fromARGB, SizedBox, ExpansionTile, Expanded, CircleAvatar, InkWell (para dar o effeito de ripple), SliverAppBar, SliverStaggeredGrid, CustomScrollView, FadeInImage.memoryNetwork, NeverScrollableScrollPhysics, drawer, VoidCallback;
 
-* flare_test ([Screenshots](./screenshots/flare_test/)):
+* flare_test ([Screenshots](./screenshots/flare_test/)): FlareActor, SplashScreen;
 
 ### Packages
 
@@ -227,6 +227,8 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 * flutter_staggered_grid_view : grid view staggered para flutter;
 * carousel_pro : carrossel;
 * scoped_model : conjunto de utilitários para passar dados de um Model para um Widget pai e seus filhos, permitindo ainda sua reconstrução caso o Model seja atualizado;
+
+* flare_flutter: pacote para permitir adicionar as animações do Flare no app Flutter;
 
 ## Ferramentas
 
