@@ -1,4 +1,9 @@
 # Screenshots: Buscador de gifs
 
-<img src="11.jpg" alt="screenshot" height="500">
-<img src="21.jpg" alt="screenshot" height="500">
+## Android
+<img src="./android/11.jpg" alt="screenshot" height="500">
+<img src="./android/21.jpg" alt="screenshot" height="500">
+
+## iOS
+<img src="./ios/11.PNG" alt="screenshot" height="500">
+<img src="./ios/21.PNG" alt="screenshot" height="500">

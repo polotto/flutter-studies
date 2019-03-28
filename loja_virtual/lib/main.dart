@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScopedModel<UserModel>(
       model: UserModel(),
-      child: ScopedModelDescendant(builder: (context, child, model) {
+      child: ScopedModelDescendant<UserModel>(builder: (context, child, model) {
         return ScopedModel<CartModel>(
           model: CartModel(model),
           child: MaterialApp(
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
             debugShowCheckedModeBanner: false,
             home: HomeScreen(),
           ),
-        )
+        );
       })
     );
   }
