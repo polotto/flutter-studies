@@ -246,3 +246,5 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 * Icones SVG: <https://www.flaticon.com/>
 
 * Material colors: <https://www.materialui.co/colors>
+
+* Animações: <https://www.2dimensions.com/>
