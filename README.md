@@ -206,6 +206,8 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 
 * flare_test ([Screenshots](./screenshots/flare_test/)): FlareActor, SplashScreen;
 
+* fluttertube ([Screenshots](./screenshots/fluttertube)): factory Video.fromJson, SearchDelegate, showSearch
+
 ### Packages
 
 * http : requisições http para API Restful;
@@ -230,6 +232,11 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 
 * flare_flutter: pacote para permitir adicionar as animações do Flare no app Flutter;
 
+* flutter_youtube:
+* shared_preferences:
+* rxdart:
+* bloc_pattern:
+
 ## Ferramentas
 
 * JsonEditor: <https://jsoneditoronline.org/>
@@ -248,3 +255,5 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 * Material colors: <https://www.materialui.co/colors>
 
 * Animações: <https://www.2dimensions.com/>
+
+* Google Apis (Youtube): <https://console.developers.google.com>
