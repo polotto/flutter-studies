@@ -206,7 +206,7 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 
 * flare_test ([Screenshots](./screenshots/flare_test/)): FlareActor, SplashScreen;
 
-* fluttertube ([Screenshots](./screenshots/fluttertube)): factory Video.fromJson, SearchDelegate, showSearch
+* fluttertube ([Screenshots](./screenshots/fluttertube)): factory Video.fromJson, SearchDelegate, showSearch, Future.delayed(Duration.zero).then((_) => close(context, query)), 
 
 ### Packages
 
@@ -239,6 +239,8 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 
 ## Ferramentas
 
+* Compilador online de Dart: <https://dartpad.dartlang.org/>
+
 * JsonEditor: <https://jsoneditoronline.org/>
 
 * HG Finance API valor das moedas: <https://hgbrasil.com/status/finance/>
@@ -257,3 +259,33 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 * Animações: <https://www.2dimensions.com/>
 
 * Google Apis (Youtube): <https://console.developers.google.com>
+
+## Streams em Dart
+
+```Dart
+import 'dart:async';
+
+void main() {
+  List convidados = ["Daniel", "João", "Paulo", "Marcos"];
+  
+  final controller = StreamController();
+  
+  // subscription serve para pausar ou cancelar esse listener
+  final subscription = controller.stream
+    // filtra os dados para obter somente a lista de convidados
+    .where((data) {
+      return convidados.contains(data);
+    })
+    // saída do stream, listener
+    .listen((data) {
+      print(data);
+    });
+  
+  controller.sink.add("Daniel");
+  controller.sink.add("Leticia");
+  controller.sink.add("Paulo");
+  controller.sink.add("Leo");
+  
+  controller.close();
+}
+```
