@@ -18,6 +18,7 @@ class Home extends StatelessWidget {
           title: Container(
             height: 25,
             child: Image.asset("images/yt_logo_rgb_dark.png"),
+//            child: Image.asset("images/analu_logo.gif"),
           ),
           elevation: 0,
           backgroundColor: Colors.black87,
