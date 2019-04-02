@@ -206,6 +206,8 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 
 * flare_test ([Screenshots](./screenshots/flare_test/)): FlareActor, SplashScreen;
 
+* fluttertube ([Screenshots](./screenshots/fluttertube)): factory Video.fromJson, SearchDelegate, showSearch, Future.delayed(Duration.zero).then((_) => close(context, query)), FlutterYoutube, BlocBase, dispose, BlocProvider, StreamController, StreamBuilder, BehaviorSubject, MapEntry, SharedPreferences, cast, containsKey, remove, CircularProgressIndicator, AlwaysStoppedAnimation, Infinity scroll, stream, sink;
+
 ### Packages
 
 * http : requisições http para API Restful;
@@ -230,7 +232,14 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 
 * flare_flutter: pacote para permitir adicionar as animações do Flare no app Flutter;
 
+* flutter_youtube: player para videos do youtube;
+* shared_preferences: acessa as configurações de usuário salvas no dispositivo;
+* rxdart: reactive X para dart, utilizado para facilitar a implementação do BloC;
+* bloc_pattern: ajuda na implementação do BloC pattern no flutter;
+
 ## Ferramentas
+
+* Compilador online de Dart: <https://dartpad.dartlang.org/>
 
 * JsonEditor: <https://jsoneditoronline.org/>
 
@@ -246,3 +255,37 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 * Icones SVG: <https://www.flaticon.com/>
 
 * Material colors: <https://www.materialui.co/colors>
+
+* Animações: <https://www.2dimensions.com/>
+
+* Google Apis (Youtube): <https://console.developers.google.com>
+
+## Streams em Dart
+
+```Dart
+import 'dart:async';
+
+void main() {
+  List convidados = ["Daniel", "João", "Paulo", "Marcos"];
+  
+  final controller = StreamController();
+  
+  // subscription serve para pausar ou cancelar esse listener
+  final subscription = controller.stream
+    // filtra os dados para obter somente a lista de convidados
+    .where((data) {
+      return convidados.contains(data);
+    })
+    // saída do stream, listener
+    .listen((data) {
+      print(data);
+    });
+  
+  controller.sink.add("Daniel");
+  controller.sink.add("Leticia");
+  controller.sink.add("Paulo");
+  controller.sink.add("Leo");
+  
+  controller.close();
+}
+```
