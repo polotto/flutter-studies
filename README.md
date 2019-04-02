@@ -206,7 +206,7 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 
 * flare_test ([Screenshots](./screenshots/flare_test/)): FlareActor, SplashScreen;
 
-* fluttertube ([Screenshots](./screenshots/fluttertube)): factory Video.fromJson, SearchDelegate, showSearch, Future.delayed(Duration.zero).then((_) => close(context, query)), 
+* fluttertube ([Screenshots](./screenshots/fluttertube)): factory Video.fromJson, SearchDelegate, showSearch, Future.delayed(Duration.zero).then((_) => close(context, query)), FlutterYoutube, BlocBase, dispose, BlocProvider, StreamController, StreamBuilder, BehaviorSubject, MapEntry, SharedPreferences, cast, containsKey, remove, CircularProgressIndicator, AlwaysStoppedAnimation, Infinity scroll, stream, sink;
 
 ### Packages
 
@@ -232,10 +232,10 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 
 * flare_flutter: pacote para permitir adicionar as animações do Flare no app Flutter;
 
-* flutter_youtube:
-* shared_preferences:
-* rxdart:
-* bloc_pattern:
+* flutter_youtube: player para videos do youtube;
+* shared_preferences: acessa as configurações de usuário salvas no dispositivo;
+* rxdart: reactive X para dart, utilizado para facilitar a implementação do BloC;
+* bloc_pattern: ajuda na implementação do BloC pattern no flutter;
 
 ## Ferramentas
 
