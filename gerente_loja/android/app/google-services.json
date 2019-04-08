@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "433132662986",
+    "firebase_url": "https://lojaflutter-74fe4.firebaseio.com",
+    "project_id": "lojaflutter-74fe4",
+    "storage_bucket": "lojaflutter-74fe4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433132662986:android:8e33357c09b4cd67",
+        "android_client_info": {
+          "package_name": "br.com.polotto.gerente_loja"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL4dDNQiconIZWdZ0js_9W6UNHhdMZ4WI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433132662986-5dvnldopm8idnphr59gt461e0ap296u3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "433132662986-5v9f28pfribf4jgims064g9hnn7j3kga.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.polotto.lojaVirtual"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433132662986:android:8364b70be0f0db1a",
+        "android_client_info": {
+          "package_name": "br.com.polotto.loja_virtual"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL4dDNQiconIZWdZ0js_9W6UNHhdMZ4WI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433132662986-5dvnldopm8idnphr59gt461e0ap296u3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "433132662986-5v9f28pfribf4jgims064g9hnn7j3kga.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.polotto.lojaVirtual"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -184,7 +184,7 @@ Altera o estado ao longo da uso da aplicação, o hot reload funciona nesses cas
 
 Função necessária para poder se conseguir alterar o estado de um Widget na tela, qualquer coisa que altere o estado de um Widget deve estar dentro dela, se não, não será alterado. O flutter atualiza somente redenriza os componentes alterados.
 
-### Projetos e conceitos
+### Projetos criados, screenshots e conceitos utilizados
 
 * primeiro_projeto: como criar um projeto em flutter;
 
@@ -207,6 +207,10 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 * flare_test ([Screenshots](./screenshots/flare_test/)): FlareActor, SplashScreen;
 
 * fluttertube ([Screenshots](./screenshots/fluttertube)): factory Video.fromJson, SearchDelegate, showSearch, Future.delayed(Duration.zero).then((_) => close(context, query)), FlutterYoutube, BlocBase, dispose, BlocProvider, StreamController, StreamBuilder, BehaviorSubject, MapEntry, SharedPreferences, cast, containsKey, remove, CircularProgressIndicator, AlwaysStoppedAnimation, Infinity scroll, stream, sink;
+
+* animations ([Screenshots](./screenshots/animations)): SingleTickerProviderStateMixin, AnimationController, void initState(), void dispose(), Animation,  AnimatedWidget, animation.addStatusListener, animation.addListener, Tween, FlutterLogo, AnimatedBuilder, Curves.easeInOut, Curves.bounceIn, Curves.elasticOut, Curves.fastOutSlowIn, opacityTween.evaluate(animation).clamp(0.0, 1.0);
+
+* animation ([Screenshots](./screenshots/animation)): import 'package:flutter/scheduler.dart' show timeDilation;, SafeArea, IgnorePointer;
 
 ### Packages
 
@@ -236,6 +240,11 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 * shared_preferences: acessa as configurações de usuário salvas no dispositivo;
 * rxdart: reactive X para dart, utilizado para facilitar a implementação do BloC;
 * bloc_pattern: ajuda na implementação do BloC pattern no flutter;
+
+### Comandos
+* Criar buid para android: `flutter build apk`;
+* Criar buid para ios: `flutter build ios`;
+* Resolver problema **Waiting for another flutter command to release the startup lock...** : `rm ~/flutter/bin/cache/lockfile`;
 
 ## Ferramentas
 

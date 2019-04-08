@@ -8,7 +8,7 @@ PODS:
   - XCDYouTubeKit (2.7.3)
 
 DEPENDENCIES:
-  - Flutter (from `.symlinks/flutter/ios`)
+  - Flutter (from `.symlinks/flutter/ios-release`)
   - flutter_youtube (from `.symlinks/plugins/flutter_youtube/ios`)
   - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
 
@@ -18,7 +18,7 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: ".symlinks/flutter/ios"
+    :path: ".symlinks/flutter/ios-release"
   flutter_youtube:
     :path: ".symlinks/plugins/flutter_youtube/ios"
   shared_preferences:
