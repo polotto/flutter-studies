@@ -210,7 +210,7 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 
 * animations ([Screenshots](./screenshots/animations)): SingleTickerProviderStateMixin, AnimationController, void initState(), void dispose(), Animation,  AnimatedWidget, animation.addStatusListener, animation.addListener, Tween, FlutterLogo, AnimatedBuilder, Curves.easeInOut, Curves.bounceIn, Curves.elasticOut, Curves.fastOutSlowIn, opacityTween.evaluate(animation).clamp(0.0, 1.0);
 
-* animation ([Screenshots](./screenshots/animation)): SafeArea;
+* animation ([Screenshots](./screenshots/animation)): import 'package:flutter/scheduler.dart' show timeDilation;, SafeArea, IgnorePointer;
 
 ### Packages
 
