@@ -241,6 +241,10 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 * rxdart: reactive X para dart, utilizado para facilitar a implementação do BloC;
 * bloc_pattern: ajuda na implementação do BloC pattern no flutter;
 
+* image_cropper: recorta imagens da galeria;
+* flutter_speed_dial: arranjo de botões em torno do FAB;
+* shimmer: dialog para carregamento;
+
 ### Comandos
 * Criar buid para android: `flutter build apk`;
 * Criar buid para ios: `flutter build ios`;
