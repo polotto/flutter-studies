@@ -212,6 +212,8 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 
 * animation ([Screenshots](./screenshots/animation)): import 'package:flutter/scheduler.dart' show timeDilation;, SafeArea, IgnorePointer;
 
+* gerente_loja (): LoginValidators, StreamTransformer, combineLatest2, Theme.of(context).copyWith;
+
 ### Packages
 
 * http : requisições http para API Restful;
