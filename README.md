@@ -245,7 +245,7 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 
 * image_cropper: recorta imagens da galeria;
 * flutter_speed_dial: arranjo de botões em torno do FAB;
-* shimmer: dialog para carregamento;
+* shimmer: retangulo com gradiente animado para dar efeito de carregamento em intens dentro da lista;
 
 ### Comandos
 * Criar buid para android: `flutter build apk`;
