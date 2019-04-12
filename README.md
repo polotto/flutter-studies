@@ -216,41 +216,46 @@ Função necessária para poder se conseguir alterar o estado de um Widget na te
 
 ### Packages
 
-* http : requisições http para API Restful;
-* path_provider : retorna o endereço do arquivo no dispositivo;
-* share : compartilha conteúdo do app, mostra dialog do sistema para compartilhar;
-* transparent_image : imagem transaparent para o FadeInImage;
-* sqflite : banco de dados SQLite;
-* url_launcher : abre aplicativos padrão do sistema: navegador, discador, etc;
-* image_picker : Obtém uma imagem da camera ou da galeria;
+* http : requisições http para API Restful <https://pub.dartlang.org/packages/http>;
+* path_provider : retorna o endereço do arquivo no dispositivo <https://pub.dartlang.org/packages/path_provider>;
+* share : compartilha conteúdo do app, mostra dialog do sistema para compartilhar <https://pub.dartlang.org/packages/share>;
+* transparent_image : imagem transaparent para o FadeInImage <https://pub.dartlang.org/packages/transparent_image>;
+* sqflite : banco de dados SQLite <https://pub.dartlang.org/packages/sqflite>;
+* url_launcher : abre aplicativos padrão do sistema: navegador, discador, etc <https://pub.dartlang.org/packages/url_launcher>;
+* image_picker : Obtém uma imagem da camera ou da galeria <https://pub.dartlang.org/packages/image_picker>;
 
-* cloud_firestore : acesso ao db firestore;
-* google_sign_in : login com o google;
-* firebase_storage : acesso ao storage (blog de imagens);
-* firebase_auth : autenticação com o firebase;
-* firebase_analytics : analytics do firebase;
-* firebase_messaging : push notifications do firebase;
+* cloud_firestore : acesso ao db firestore <https://pub.dartlang.org/packages/cloud_firestore>;
+* google_sign_in : login com o google <https://pub.dartlang.org/packages/google_sign_in>;
+* firebase_storage : acesso ao storage (blog de imagens) <https://pub.dartlang.org/packages/firebase_storage>;
+* firebase_auth : autenticação com o firebase <https://pub.dartlang.org/packages/firebase_auth>;
+* firebase_analytics : analytics do firebase <https://pub.dartlang.org/packages/firebase_analytics>;
+* firebase_messaging : push notifications do firebase <https://pub.dartlang.org/packages/firebase_messaging>;
+* firebase_crashlytics: adiciona o crashlytics no firebase <https://pub.dartlang.org/packages/firebase_crashlytics>;
 
-* font_awesome : icones do font awesome;
-* flutter_staggered_grid_view : grid view staggered para flutter;
-* carousel_pro : carrossel;
-* scoped_model : conjunto de utilitários para passar dados de um Model para um Widget pai e seus filhos, permitindo ainda sua reconstrução caso o Model seja atualizado;
+* font_awesome_flutter : icones do font awesome para flutter <https://pub.dartlang.org/packages/font_awesome_flutter>;
+* flutter_staggered_grid_view : grid view staggered para flutter <https://pub.dartlang.org/packages/flutter_staggered_grid_view>;
+* carousel_pro : carrossel <https://pub.dartlang.org/packages/carousel_pro>;
+* scoped_model : conjunto de utilitários para passar dados de um Model para um Widget pai e seus filhos, permitindo ainda sua reconstrução caso o Model seja atualizado <https://pub.dartlang.org/packages/scoped_model>;
 
-* flare_flutter: pacote para permitir adicionar as animações do Flare no app Flutter;
+* flare_flutter: pacote para permitir adicionar as animações do Flare no app Flutter <https://pub.dartlang.org/packages/flare_flutter>;
 
-* flutter_youtube: player para videos do youtube;
-* shared_preferences: acessa as configurações de usuário salvas no dispositivo;
-* rxdart: reactive X para dart, utilizado para facilitar a implementação do BloC;
-* bloc_pattern: ajuda na implementação do BloC pattern no flutter;
+* flutter_youtube: player para videos do youtube <https://pub.dartlang.org/packages/flutter_youtube>;
+* shared_preferences: acessa as configurações de usuário salvas no dispositivo <https://pub.dartlang.org/packages/shared_preferences>;
+* rxdart: reactive X para dart, utilizado para facilitar a implementação do BloC <https://pub.dartlang.org/packages/rxdart>;
+* bloc_pattern: ajuda na implementação do BloC pattern no flutter <https://pub.dartlang.org/packages/bloc_pattern>;
 
-* image_cropper: recorta imagens da galeria;
-* flutter_speed_dial: arranjo de botões em torno do FAB;
-* shimmer: retangulo com gradiente animado para dar efeito de carregamento em intens dentro da lista;
+* image_cropper: recorta imagens da galeria <https://pub.dartlang.org/packages/image_cropper>;
+* flutter_speed_dial: arranjo de botões em torno do FAB <https://pub.dartlang.org/packages/flutter_speed_dial>;
+* shimmer: retangulo com gradiente animado para dar efeito de carregamento em intens dentro da lista <https://pub.dartlang.org/packages/shimmer>;
+
+* flutter_launcher_icons: plugin para trocar o launcher icon dos aplicativos automaticamente com pouco trabalho <https://pub.dartlang.org/packages/flutter_launcher_icons>;
 
 ### Comandos
+
 * Criar buid para android: `flutter build apk`;
 * Criar buid para ios: `flutter build ios`;
 * Resolver problema **Waiting for another flutter command to release the startup lock...** : `rm ~/flutter/bin/cache/lockfile`;
+* Trocar os icones dos aplicativos: `flutter packages pub run flutter_launcher_icons:main`;
 
 ## Ferramentas
 
@@ -304,3 +309,11 @@ void main() {
   controller.close();
 }
 ```
+
+## Deployment
+
+### Android
+
+Instruções: <https://flutter.dev/docs/deployment/android>
+
+* gerar a key: `keytool -genkey -v -keystore ./key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias key`;

@@ -29,6 +29,7 @@ dependencies:
   shared_preferences: ^0.5.1+2
   rxdart: ^0.21.0
   bloc_pattern: ^1.5.2
+  flutter_launcher_icons: ^0.7.0
 
 dev_dependencies:
   flutter_test:
@@ -79,3 +80,8 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.io/custom-fonts/#from-packages
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "icons/video.png"
