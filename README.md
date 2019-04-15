@@ -317,3 +317,9 @@ void main() {
 Instruções: <https://flutter.dev/docs/deployment/android>
 
 * gerar a key: `keytool -genkey -v -keystore ./key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias key`;
+
+## Tasks
+
+* criar componentes: TextField, Text, Custom Theme, Card, ListTile, Buttom, FlatButtom
+
+* criar fluxo app Projeto Ajudei: Flutter + Firebase
