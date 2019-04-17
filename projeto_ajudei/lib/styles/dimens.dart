@@ -8,4 +8,6 @@ class Dimens {
   static final textTitle = 16.0;
   static final textBody1 = 14.0;
   static final textButton = 14.0;
+
+  static final raisedButtonHeight = 40.0;
 }

@@ -9,4 +9,8 @@ class MyColors {
   static final textTitle = Color(0x202124);
   static final textBody1 = Color(0x5f6368);
   static final textButton = Color(0xffffff);
+
+  static final textField = Color(0x202124);
+  static final hintField = Color(0x202124);
+
 }
