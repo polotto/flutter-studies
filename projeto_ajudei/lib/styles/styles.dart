@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:projeto_ajudei/styles/my_colors.dart';
 import 'package:projeto_ajudei/styles/dimens.dart';
 
-enum TextType { headline, title, body1 }
-
 class Styles {
   static final theme = ThemeData(
     primarySwatch: MyColors.primary,

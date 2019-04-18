@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:projeto_ajudei/styles/styles.dart';
+
+enum TextType { headline, title, body1 }
 
 class MyText extends StatelessWidget {
   final String text;
   final TextType textType;
+  final TextAlign textAlign;
 
-  MyText({Key key, @required this.text, @required this.textType}) : super(key: key);
+  const MyText({Key key, @required this.text, @required this.textType, this.textAlign = TextAlign.start}) : super(key: key);
 
   @override
   Text build(BuildContext context) {
