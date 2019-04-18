@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Projeto Ajudei',
       theme: Styles.theme,
+      debugShowCheckedModeBanner: false,
       home: HomeScreen(),
     );
   }

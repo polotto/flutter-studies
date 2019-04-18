@@ -10,4 +10,6 @@ class Dimens {
   static final textButton = 14.0;
 
   static final raisedButtonHeight = 40.0;
+
+  static final textAppBar = 18.0;
 }

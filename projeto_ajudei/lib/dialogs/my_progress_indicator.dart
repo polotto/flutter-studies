@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:projeto_ajudei/styles/styles.dart';
-import 'package:projeto_ajudei/widgets/my_text.dart';
+import 'package:projeto_ajudei/widgets/texts/my_text.dart';
 
-class ProgressIndicator<T> extends StatelessWidget {
+class MyProgressIndicator<T> extends StatelessWidget {
   final Stream<T> stream;
   final Function builder;
 
-  const ProgressIndicator(
+  const MyProgressIndicator(
       {Key key, @required this.stream, @required this.builder})
       : super(key: key);
 
@@ -37,7 +37,7 @@ class ProgressIndicator<T> extends StatelessWidget {
               ),
             );
           } else {
-            return builder(context, snapshot);
+            return builder(context, snapshot as T);
           }
         });
   }

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:projeto_ajudei/widgets/my_flat_button.dart';
-import 'package:projeto_ajudei/widgets/my_text.dart';
+import 'package:projeto_ajudei/widgets/buttons/my_flat_button.dart';
+import 'package:projeto_ajudei/widgets/texts/my_text.dart';
 
 class InfoDialog {
   InfoDialog({

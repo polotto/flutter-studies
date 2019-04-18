@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projeto_ajudei/styles/styles.dart';
 
 enum TextType { headline, title, body1 }
 
@@ -14,13 +15,13 @@ class MyText extends StatelessWidget {
     var style;
     switch(textType) {
       case TextType.headline:
-        style = Text(text, style: Theme.of(context).textTheme.headline,);
+        style = Text(text, style: Styles.textHeadline,);
         break;
       case TextType.title:
-        style = Text(text, style: Theme.of(context).textTheme.title,);
+        style = Text(text, style: Styles.textTitle,);
         break;
       case TextType.body1:
-        style = Text(text, style: Theme.of(context).textTheme.body1,);
+        style = Text(text, style: Styles.textBody1,);
         break;
     }
     return style;
